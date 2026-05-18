@@ -199,7 +199,8 @@ function Catalogo() {
             href="#contacto"
             className="inline-flex items-center gap-2 bg-foreground text-[color:var(--brand-cream)] px-8 py-4 rounded-full font-bold shadow-pop border-2 border-foreground hover:-translate-y-1 transition-transform"
           >
-            Reservar una pieza <ShoppingBag className="h-4 w-4" />
+            <span>Reservar una pieza</span>
+            <ShoppingBag className="h-4 w-4 shrink-0" />
           </a>
         </div>
       </div>
