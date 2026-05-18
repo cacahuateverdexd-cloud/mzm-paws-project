@@ -77,7 +77,8 @@ function Hero() {
       <div className="relative max-w-7xl mx-auto px-5 pt-16 pb-24 md:pt-24 md:pb-32 grid md:grid-cols-2 gap-10 items-center">
         <div>
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[color:var(--brand-crimson)] text-[color:var(--brand-cream)] text-xs font-bold uppercase tracking-widest mb-6 shadow-pop border-2 border-foreground">
-            <PawPrint className="h-3.5 w-3.5" /> 7% para refugios animales
+            <PawPrint className="h-3.5 w-3.5 shrink-0" />
+            <span>7% para refugios animales</span>
           </span>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-[0.95]">
             Viste tu <span className="italic text-[color:var(--brand-crimson)]">estilo</span>.<br />
@@ -91,13 +92,15 @@ function Hero() {
               href="#catalogo"
               className="inline-flex items-center gap-2 bg-foreground text-[color:var(--brand-cream)] px-7 py-4 rounded-full font-bold shadow-pop border-2 border-foreground hover:-translate-y-1 transition-transform"
             >
-              Ver catálogo <Sparkles className="h-4 w-4" />
+              <span>Ver catálogo</span>
+              <Sparkles className="h-4 w-4 shrink-0" />
             </a>
             <a
               href="#causa"
               className="inline-flex items-center gap-2 bg-[color:var(--brand-cream)] px-7 py-4 rounded-full font-bold border-2 border-foreground shadow-pop hover:-translate-y-1 transition-transform"
             >
-              Nuestra causa <Heart className="h-4 w-4 fill-[color:var(--brand-crimson)] text-[color:var(--brand-crimson)]" />
+              <span>Nuestra causa</span>
+              <Heart className="h-4 w-4 shrink-0 fill-[color:var(--brand-crimson)] text-[color:var(--brand-crimson)]" />
             </a>
           </div>
         </div>
