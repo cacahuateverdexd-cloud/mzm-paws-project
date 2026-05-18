@@ -252,14 +252,16 @@ function Contacto() {
             href="mailto:hola@mzmstreetwear.com"
             className="inline-flex items-center gap-2 bg-[color:var(--brand-cream)] text-foreground px-7 py-4 rounded-full font-bold border-2 border-foreground shadow-pop hover:-translate-y-1 transition-transform"
           >
-            <Mail className="h-4 w-4" /> hola@mzmstreetwear.com
+            <Mail className="h-4 w-4 shrink-0" />
+            <span>hola@mzmstreetwear.com</span>
           </a>
           <a
             href="https://instagram.com"
             target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-foreground text-[color:var(--brand-cream)] px-7 py-4 rounded-full font-bold border-2 border-foreground shadow-pop hover:-translate-y-1 transition-transform"
           >
-            <Instagram className="h-4 w-4" /> @mzm.streetwear
+            <Instagram className="h-4 w-4 shrink-0" />
+            <span>@mzm.streetwear</span>
           </a>
         </div>
       </div>
