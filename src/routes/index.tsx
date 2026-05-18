@@ -58,7 +58,8 @@ function Nav() {
           href="#catalogo"
           className="inline-flex items-center gap-2 bg-[color:var(--brand-crimson)] text-[color:var(--brand-cream)] px-4 py-2 rounded-full text-sm font-bold shadow-pop border-2 border-foreground hover:-translate-y-0.5 transition-transform"
         >
-          <ShoppingBag className="h-4 w-4" /> Comprar
+          <ShoppingBag className="h-4 w-4 shrink-0" />
+          <span>Comprar</span>
         </a>
       </div>
     </header>
