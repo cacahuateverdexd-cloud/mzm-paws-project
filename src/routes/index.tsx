@@ -282,7 +282,7 @@ function Footer() {
           <img src={logo} alt="MZM" className="h-10 w-10 object-contain" />
           <span className="font-black">MZM Streetwear © 2026</span>
         </div>
-        <p className="text-sm opacity-80">Hecho con <Heart className="inline h-3 w-3 fill-current" /> por Monserrat Zarate Montes.</p>
+        <p className="text-sm opacity-80"><span>Hecho con</span> <Heart className="inline h-3 w-3 fill-current shrink-0" /> <span>por Monserrat Zarate Montes.</span></p>
       </div>
     </footer>
   );
