@@ -280,7 +280,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <img src={logo} alt="MZM" className="h-10 w-10 object-contain" />
-          <span className="font-black">MZM Streetwear © {new Date().getFullYear()}</span>
+          <span className="font-black">MZM Streetwear © 2026</span>
         </div>
         <p className="text-sm opacity-80">Hecho con <Heart className="inline h-3 w-3 fill-current" /> por Monserrat Zarate Montes.</p>
       </div>
