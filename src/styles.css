@@ -158,8 +158,6 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=Inter:wght@400;500;600;700&display=swap');
-
 .bg-gradient-hero { background: var(--gradient-hero); }
 .bg-gradient-soft { background: var(--gradient-soft); }
 .shadow-pop { box-shadow: var(--shadow-pop); }
